@@ -12,7 +12,7 @@ list()
 
 delete()
 {
-	ID=$(bash listIp.sh)
+	ID=$(list)
 	yes|oci network public-ip delete --public-ip-id="$ID"
 	echo Deleted'!'
 }
