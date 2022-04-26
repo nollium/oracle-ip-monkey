@@ -1,5 +1,6 @@
 create()
 {
+	echo Creating IP...
 	oci network public-ip create --compartment-id ocid1.tenancy.oc1..aaaaaaaatabcjvdherv4wxpc26obfv733wvr24eylrg7otxl4zw5pl5qimda --lifetime EPHEMERAL --private-ip-id=ocid1.privateip.oc1.uk-london-1.abwgiljs22bv473dgoh3b35aespxtmdhqrzqzmyk2jhmsz7cfr5qw2rgi6yq
 }
 
