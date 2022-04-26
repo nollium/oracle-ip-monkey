@@ -18,7 +18,7 @@ delete()
 	echo Deleted'!'
 }
 
-delay=1400
+delay=7200
 while true;do
 	date
 	echo Switchings IPS...
